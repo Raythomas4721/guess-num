@@ -1,6 +1,6 @@
 import random
-start = input('Please decide the random number start value')
-end = input('Please decide the random number end value')
+start = input('Please decide the random number start value:')
+end = input('Please decide the random number end value:')
 start = int(start)
 end = int(end)
 r = random.randint(start, end)
